@@ -7,7 +7,7 @@ const app = express();
 app.use(bodyParser.urlencoded({extended:false}));
 app.use(bodyParser.json());
 
-const PORT =4000;
+const PORT = 4000;
 
 app.listen(PORT,() =>
 {
